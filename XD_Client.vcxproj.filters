@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{a66ddef8-04fd-4142-b9ad-ca4ca5459ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{b3508b60-0825-49cd-9ca6-5d935f626565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{13cb717d-9f81-47f6-a8e8-064041649baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{470ed9ae-3dd1-4bfb-9594-683f0d56a0dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="frmvideopanel.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="plot.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="StationPanel.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="videopanel.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="M_UdpSocket.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="QIPLineEdit.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="IPAddress.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StationInfo.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="frmvideopanel.h">
+      <Filter>Misc</Filter>
+    </QtMoc>
+    <QtMoc Include="panel.h">
+      <Filter>Misc</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Misc</Filter>
+    </QtMoc>
+    <QtMoc Include="plot.h">
+      <Filter>Misc</Filter>
+    </QtMoc>
+    <QtMoc Include="StationPanel.h">
+      <Filter>Misc</Filter>
+    </QtMoc>
+    <QtMoc Include="videopanel.h">
+      <Filter>Misc</Filter>
+    </QtMoc>
+    <QtMoc Include="QIPLineEdit.h">
+      <Filter>UI</Filter>
+    </QtMoc>
+    <QtMoc Include="MyIpPartLineEdit.h">
+      <Filter>UI</Filter>
+    </QtMoc>
+    <QtMoc Include="MyIpAddrEdit.h">
+      <Filter>UI</Filter>
+    </QtMoc>
+    <QtMoc Include="IPAddress.h">
+      <Filter>UI</Filter>
+    </QtMoc>
+    <QtMoc Include="panel.cpp">
+      <Filter>Misc</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="settings.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="M_UdpSocket.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MyIpPartLineEdit.cpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyIpAddrEdit.cpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSafeQueue.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="StationInfo.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="str_FFT.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
